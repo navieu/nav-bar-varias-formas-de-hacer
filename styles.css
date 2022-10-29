@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+div{
+    margin: 16px;
+}
+/* ------------ este es ela parte de CSS de el primer nav-bar ------------ */
+#primera-pagina{
+    background-color: #162a57;
+}
+#primera-pagina ul li a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#primera-pagina ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parteLogo{
+    margin: 16px;
+}
+#buscador{
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 64px;
+    background-color: #08122b;
+    border-radius: 10px;
+    border: #354161 4px solid;
+    margin-left: 120px;
+}
+#buscador img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+#logoNom{
+    width: 60px;
+}
+#buscador input{
+    border-style: none;
+    outline: none;
+    background-color: #08122b;
+    color: #898a8d;
+}
+.puntos a{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.puntos a img{
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+.campa{
+    background-color: azure;
+    border-radius: 20px;
+    z-index: -1;
+}
+#bolita{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    
+}
+/* ---------------------------------- */
