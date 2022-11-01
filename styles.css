@@ -77,3 +77,25 @@ div{
     
 }
 /* ---------------------------------- */
+/* ----------  segunda cabecera  ----------- */
+#segunda-pagina{
+    background-color: rgba(red, green, blue, );
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-left a{
+    justify-items: center;
+}
+.nav-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right ul li{
+    margin: 20px;
+}
