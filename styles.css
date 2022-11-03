@@ -79,7 +79,7 @@ div{
 /* ---------------------------------- */
 /* ----------  segunda cabecera  ----------- */
 #segunda-pagina{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.616);
     display: flex;
     justify-content: space-between;
 }
